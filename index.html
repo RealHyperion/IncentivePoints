@@ -1,0 +1,39 @@
+<!-- Main HTML for IncentivePoints -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IncentivePoints Tracker</title>
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.example.com/your-lofi-music.mp3" type="audio/mpeg"> <!-- Replace with your lofi music URL -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1>IncentivePoints Tracker</h1>
+
+        <div class="input-section">
+            <label for="nameInput">Enter your name:</label>
+            <input type="text" id="nameInput" placeholder="Type your name here" />
+            <button id="fetchPoints">Check Points</button>
+        </div>
+
+        <div id="pointsDisplay" class="points-display"></div>
+
+        <div class="music-controls">
+            <button id="playMusic">Play Music</button>
+            <button id="pauseMusic">Pause Music</button>
+        </div>
+
+        <a href="info.html" class="info-link">Info Page</a>
+       <a href="plans.html" class="info-link">Payment Plans Page</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
