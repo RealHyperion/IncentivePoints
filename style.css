@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/037/980/962/small/ai-generated-serene-of-lone-tree-standing-partially-submerged-in-calm-body-of-water-with-the-gradient-hues-of-sunset-or-sunrise-reflecting-on-the-water-surface-ai-generated-photo.jpg'); /* Light texture */
+  background-color: #e0f7fa; /* Soft background color */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden;
+}
+
+.container {
+  max-height: 90vh; /* Max height of the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #00796b; /* Dark teal color */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #00796b; /* Dark teal */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+
+.points-display {
+  background-color: #f0f4c3; /* Light green color */
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 20px;
+  display: inline-block;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.ip-text {
+  color: gold; /* Gold color for 'IP' */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.points-text {
+  color: white; /* White color for points */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.difference-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px; /* Space between points and difference */
+}
+
+button:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+.music-controls {
+  margin-top: 20px;
+}
+
+.info-link {
+  display: inline-block;
+  margin: 20px;
+  background-color: #00796b; /* Dark teal */
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.info-link:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
